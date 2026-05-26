@@ -5,22 +5,22 @@ export const Servicios = () => {
         {
             name: "Masaje Relajante",
             description: "Técnicas suaves que ayudan a liberar el estrés y relajar cuerpo y mente",
-            image: "https://demo-landing-masajes.pages.dev/src/assets/images/masaje-relajante.png"
+            image: "/src/assets/images/masaje-relajante.png"
         },
         {
             name: "Masaje Descontracturante",
             description: "Alivia tensiones musculares profundas y mejora la movilidad",
-            image: "https://demo-landing-masajes.pages.dev/src/assets/images/masaje-descontracturante.png"
+            image: "/src/assets/images/masaje-descontracturante.png"
         },
         {
             name: "Aromaterapia",
             description: "Masaje con aceites esenciales que equilibran tus emociones y promueven bienestar",
-            image: "https://demo-landing-masajes.pages.dev/src/assets/images/aromaterapia.png"
+            image: "/src/assets/images/aromaterapia.png"
         },
         {
             name: "Piedras calientes",
             description: "Terapia con piedras volcanicas que relaja profundamente y mejora la circulación",
-            image: "https://demo-landing-masajes.pages.dev/src/assets/images/piedras.png"
+            image: "/src/assets/images/piedras.png"
         }
     ]
 
