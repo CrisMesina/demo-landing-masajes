@@ -2,6 +2,7 @@ import { Nav } from "../components/Nav"
 import { Beneficios } from "../components/Sections/Beneficios"
 import { Hero } from "../components/Sections/Hero"
 import { Nosotros } from "../components/Sections/Nosotros"
+import { Servicios } from "../components/Sections/Servicios"
 
 export const Home = () => {
   return (
@@ -17,6 +18,9 @@ export const Home = () => {
         </div>
         <div className="" id="beneficios">
             <Beneficios/>
+        </div>
+        <div className="" id="servicios">
+            <Servicios/>
         </div>
     </>
   )
