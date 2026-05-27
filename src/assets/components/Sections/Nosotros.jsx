@@ -1,3 +1,5 @@
+import nosotros from '../../images/nosotros.png'
+
 import { FaCheckCircle } from "react-icons/fa"
 import { GiLotusFlower } from "react-icons/gi"
 
@@ -32,7 +34,7 @@ export const Nosotros = () => {
                 <div className="hidden lg:flex my-auto p-10">
                     <img 
                         className="my-auto rounded-4xl"
-                        src="/src/assets/images/bg-hero.png" alt="" />
+                        src={nosotros} alt="" />
                 </div>
             </div>
         

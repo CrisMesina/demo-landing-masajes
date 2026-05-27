@@ -1,3 +1,5 @@
+import logo from '../images/logo.png'
+
 import { useState, useEffect } from "react"
 import { FaWhatsapp } from "react-icons/fa"
 import { IoClose } from "react-icons/io5"
@@ -52,7 +54,7 @@ export const Nav = () => {
                 <div className="lg:grid lg:grid-cols-3 hidden w-full">
                     <div className="flex items-end justify-start">
                         {/* LOGO */}
-                        <img src="/src/assets/images/logo.png" className="h-40" alt="Logo" />
+                        <img src={logo} className="h-40" alt="Logo" />
                     </div>
                     <div className="flex text-start justify-center items-center my-auto">
                         {/* Navs */}

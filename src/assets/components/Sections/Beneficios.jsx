@@ -1,4 +1,7 @@
-
+import loto from '../../images/loto.png'
+import espalda from '../../images/espalda.png'
+import moon from '../../images/moon-beneficios.png'
+import leaf from '../../images/leaf.png'
 
 export const Beneficios = () => {
 
@@ -7,25 +10,25 @@ export const Beneficios = () => {
             id:1,
             name: "Reduce el estrés",
             description: "Disminuye la ansiedad y promueve la relagación profunda",
-            image: "/src/assets/images/loto.png"
+            image: loto
         },
         {
             id:2,
             name: "Alivia tensión muscular",
             description: "Ideal para dolores musculares, contracturas y cansancio fisico",
-            image: "/src/assets/images/espalda.png"
+            image: espalda
         },
         {
             id:3,
             name: "Mejora el descanso",
             description: "Favorece un sueño profundo y reparador",
-            image: "/src/assets/images/moon-beneficios.png"
+            image: moon
         },
         {
             id:4,
             name: "Renueva tu energía",
             description: "Recupera tu vitaludad fisica y mental",
-            image: "/src/assets/images/leaf.png"
+            image: leaf
         }
     ]
 
