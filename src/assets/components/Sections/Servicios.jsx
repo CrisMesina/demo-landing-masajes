@@ -1,3 +1,7 @@
+import descontracturante from '../../images/masaje-descontracturante.png'
+import relajante from '../../images/masaje-relajante.png'
+import aromaterapia from '../../images/aromaterapia.png'
+import piedras from '../../images/piedras.png'
 
 export const Servicios = () => {
 
@@ -5,22 +9,22 @@ export const Servicios = () => {
         {
             name: "Masaje Relajante",
             description: "Técnicas suaves que ayudan a liberar el estrés y relajar cuerpo y mente",
-            image: "/src/assets/images/masaje-relajante.png"
+            image: relajante
         },
         {
             name: "Masaje Descontracturante",
             description: "Alivia tensiones musculares profundas y mejora la movilidad",
-            image: "/src/assets/images/masaje-descontracturante.png"
+            image: descontracturante
         },
         {
             name: "Aromaterapia",
             description: "Masaje con aceites esenciales que equilibran tus emociones y promueven bienestar",
-            image: "/src/assets/images/aromaterapia.png"
+            image: aromaterapia
         },
         {
             name: "Piedras calientes",
             description: "Terapia con piedras volcanicas que relaja profundamente y mejora la circulación",
-            image: "/src/assets/images/piedras.png"
+            image: piedras
         }
     ]
 
