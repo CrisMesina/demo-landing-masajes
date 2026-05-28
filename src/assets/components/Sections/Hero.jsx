@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <>
             <div className="min-h-screen flex items-center justify-start text-white mx-5 lg:mx-30">
-                <div className="">
+                <div className="xl:mt-20">
                     <h1 className="font-bold mb-4 font-mono text-amber-800">TU BIENESTAR, NUESTRA PRIORIDAD</h1>
                     <h1 className="lg:text-8xl xl:text-7xl text-5xl mb-4 font-serif">Relaja tu cuerpo,</h1>
                     <h1 className="lg:text-8xl xl:text-7xl text-5xl mb-4 font-serif">Renueva tu energía</h1>
