@@ -108,8 +108,8 @@ export const Nav = () => {
                         {
                             open && (
                                 <>
-                                    <div className="w-screen h-auto flex flex-col bg-black/80 backdrop-blur-2xl shadow-lg">
-                                        <div>
+                                    <div className="w-screen h-auto absolute top-30 bg-black/80 backdrop-blur-2xl shadow-lg">
+                                        <div className='flex flex-col'>
                                             {navs.map((n, i) =>(
                                                 <a href={n.link} key={i} className="flex text-white my-10 mx-10">{n.name}</a>
                                             ))}
