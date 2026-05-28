@@ -51,7 +51,7 @@ export const Testimonios = () => {
                         testimonios.map((s, i) => (
                             <div className="2xl:w-86 mx-auto shadow-2xl rounded-2xl w-70 md:w-80 h-auto flex flex-col items-center overflow-hidden" key={i}>
                                 <StarRating rating={s.rating} />
-                                <p className="text-gray-600 p-5 mb-10 text-center text-lg font-sans">{s.description}</p>
+                                <p className="text-gray-600 p-5 text-center text-lg font-sans">{s.description}</p>
                                 <div className="flex mb-10">
                                     <img src={s.image}  className={`w-20 h-20 rounded-t-2xl`} />
                                     <h2 className="text-xl font-bold my-auto">{s.name}</h2>

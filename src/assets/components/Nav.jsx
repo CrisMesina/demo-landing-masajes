@@ -50,7 +50,7 @@ export const Nav = () => {
 
     return (
         <>
-            <div className={`fixed top-0 left-0 right-0 z-50 flex w-full h-30 lg:h-40 justify-center items-center transition-colors duration-300 ${scrolled ? "bg-black/80 backdrop-blur-2xl shadow-lg" : "bg-transparent"}`}>
+            <div className={`fixed top-0 left-0 right-0 z-50 flex w-full h-30 xl:h-30 2xl:h-40 lg:h-40 justify-center items-center transition-colors duration-300 ${scrolled ? "bg-black/80 backdrop-blur-2xl shadow-lg" : "bg-transparent"}`}>
                 <div className="lg:grid lg:grid-cols-3 hidden w-full">
                     <div className="flex items-end justify-start">
                         {/* LOGO */}
