@@ -46,10 +46,10 @@ export const Testimonios = () => {
                 <h1 className="text-center font-serif text-4xl lg:text-6xl p-5">
                     Lo que dicen nuestros clientes
                 </h1>
-                <div className="grid md:gap-2 lg:grid-cols-3 mx-auto gap-10 md:p-10">
+                <div className="grid md:gap-2 lg:grid-cols-3 mx-auto mb-10 gap-10 md:p-10">
                     {
                         testimonios.map((s, i) => (
-                            <div className="2xl:w-86 mx-auto shadow-2xl rounded-2xl w-70 md:w-80 h-auto flex flex-col items-center overflow-hidden" key={i}>
+                            <div className="2xl:w-86 mx-auto shadow-2xl  rounded-2xl w-70 md:w-80 h-auto flex flex-col items-center overflow-hidden" key={i}>
                                 <StarRating rating={s.rating} />
                                 <p className="text-gray-600 p-5 text-center text-lg font-sans">{s.description}</p>
                                 <div className="flex mb-10">

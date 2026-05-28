@@ -48,6 +48,8 @@ export const Nav = () => {
 
     
 
+    const wsp = "https://wa.me/56979165611?text=Hola%20quiero%20hacer%20una%20reserva"
+
     return (
         <>
             <div className={`fixed top-0 left-0 right-0 z-50 flex w-full h-30 xl:h-30 2xl:h-40 lg:h-40 justify-center items-center transition-colors duration-300 ${scrolled ? "bg-black/80 backdrop-blur-2xl shadow-lg" : "bg-transparent"}`}>
@@ -66,8 +68,10 @@ export const Nav = () => {
                     </div>
                     <div className="relative my-auto mx-20 w-20 items-center justify-end gap-5">
                         {/* BOTON DE RESERVA */}
-                        <button 
+                        <button
+
                             className="border p-3 rounded-4xl xl:w-72 2xl:w-90 w-90 font-bold hover:shadow-md hover:will-change-auto hover:translate-y-1 transition-all duration-300 hover:shadow-white"
+                            onClick={() => window.open(wsp, "_blank")}
                         >
                             <FaWhatsapp className="absolute w-9 xl:hidden 2xl:block h-9 top-2 left-10"/>
                             Reservar por Whatsapp
@@ -110,10 +114,13 @@ export const Nav = () => {
                                                 <a href={n.link} key={i} className="flex text-white my-10 mx-10">{n.name}</a>
                                             ))}
                                         </div>
+
+
                                     </div>
                                 </>
                             )
                         }
+
                         
                     </div>
                 </div>
