@@ -67,9 +67,9 @@ export const Nav = () => {
                     <div className="relative my-auto mx-20 w-20 items-center justify-end gap-5">
                         {/* BOTON DE RESERVA */}
                         <button 
-                            className="border p-3 rounded-4xl w-90 font-bold hover:shadow-md hover:will-change-auto hover:translate-y-1 transition-all duration-300 hover:shadow-white"
+                            className="border p-3 rounded-4xl xl:w-72 2xl:w-90 w-90 font-bold hover:shadow-md hover:will-change-auto hover:translate-y-1 transition-all duration-300 hover:shadow-white"
                         >
-                            <FaWhatsapp className="absolute w-9 h-9 top-2 left-10"/>
+                            <FaWhatsapp className="absolute w-9 xl:hidden 2xl:block h-9 top-2 left-10"/>
                             Reservar por Whatsapp
                         </button>
 
