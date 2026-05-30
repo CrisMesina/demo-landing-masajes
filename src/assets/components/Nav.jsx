@@ -48,7 +48,7 @@ export const Nav = () => {
 
     
 
-    const wsp = "https://wa.me/56979165611?text=Hola%20quiero%20hacer%20una%20reserva"
+    const wsp = "https://wa.me/56912345678?text=Hola%20quiero%20hacer%20una%20reserva"
 
     return (
         <>
